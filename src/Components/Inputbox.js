@@ -14,11 +14,10 @@ class InputBox extends Component {
         return (
         <div className="Input">
             
-            <ControlLabel>{this.props.label}</ControlLabel>
+            {/*<ControlLabel>{this.props.label}</ControlLabel>*/}
                 <FormControl
                 
                     type={this.props.type}
-                    label={this.props.label}
                     placeholder={this.props.placeholder}
                     onChange={this.handleTextChange.bind(this)}
                 />
